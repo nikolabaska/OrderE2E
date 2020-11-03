@@ -1,0 +1,8 @@
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features = {"src/test/resources"}, 
+         glue = {"stepdefinitions"},
+    tags= {"@OrderandContact"})
+public class Testruner {
+
+}
